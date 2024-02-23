@@ -1,0 +1,41 @@
+@import url("https://bootswatch.com/4/materia/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.4.2/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+#header {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    padding: 15px 80px;
+    background: #555;
+    /*background: rgba(255, 255, 255, .1);*/
+    display: flex; justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    z-index: 1;
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.icon-container {
+    width: 55px; height: 55px; background-color: #333; border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;  margin: 10px;
+}
+
+.icon-container:hover{
+    background: #3498db;
+}
+
+.icon-container .fab {
+    font-size: 25px; color: #fff;
+}
